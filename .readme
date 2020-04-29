@@ -1,0 +1,4 @@
+yarn add express 
+yarn add sequelize pg
+yarn add sequelize-cli
+yarn sequelize init
