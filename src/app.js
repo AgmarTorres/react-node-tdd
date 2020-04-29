@@ -17,4 +17,4 @@ class AppController {
 
 }
 
-module.export = new AppController 
+module.exports = new AppController().express
