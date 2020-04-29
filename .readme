@@ -2,3 +2,5 @@ yarn add express
 yarn add sequelize pg
 yarn add sequelize-cli
 yarn sequelize init
+yarn sequelize migration:create --name=create-users
+yarn sequelize db:migrate
