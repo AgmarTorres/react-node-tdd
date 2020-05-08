@@ -4,3 +4,5 @@ yarn add sequelize-cli
 yarn sequelize init
 yarn sequelize migration:create --name=create-users
 yarn sequelize db:migrate
+yarn add dotenv // carregar banco para os tests
+yarn add sqlite3 -D
